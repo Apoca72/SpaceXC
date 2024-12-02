@@ -124,22 +124,22 @@ section {
 
 /* Background images */
 .section-a {
-  background-image: url('../spacex-website-main/section-a.webp');
+  background-image: url('section-a.webp');
 }
 .section-b {
-  background-image: url('../spacex-website-main/section-b.webp');
+  background-image: url('section-b.webp');
 }
 .section-c {
-  background-image: url('../spacex-website-main/section-c.webp');
+  background-image: url('section-c.webp');
 }
 .section-d {
-  background-image: url('../spacex-website-main/section-d.webp');
+  background-image: url('section-d.webp');
 }
 .section-e {
-  background-image: url('../spacex-website-main/section-e.webp');
+  background-image: url('section-e.webp');
 }
 .section-f {
-  background-image: url('../spacex-website-main/section-f.webp');
+  background-image: url('section-f.webp');
 }
 
 .btn {
@@ -338,15 +338,15 @@ footer ul li a:hover {
 
 /* Inner Pages */
 .bg-falcon-9 {
-  background-image: url('../spacex-website-main/falcon-9.webp');
+  background-image: url('falcon-9.webp');
 }
 
 .bg-falcon-heavy {
-  background-image: url('../spacex-website-main/falcon-heavy.webp');
+  background-image: url('falcon-heavy.webp');
 }
 
 .bg-dragon {
-  background-image: url('../spacex-website-main/dragon.webp');
+  background-image: url('dragon.webp');
 }
 
 .section-animate {

@@ -4,6 +4,7 @@ const menu = document.getElementById('mobile-menu');
 const counters = document.querySelectorAll('.counter');
 let scrollStarted = false;
 
+// Toggle navigation menu and overlay
 btn.addEventListener('click', navToggle);
 document.addEventListener('scroll', scrollPage);
 
@@ -14,6 +15,7 @@ function navToggle() {
   menu.classList.toggle('show-menu');
 }
 
+// Scroll-triggered animation for counters
 function scrollPage() {
   const scrollPos = window.scrollY;
 
@@ -31,19 +33,12 @@ function countUp() {
     counter.innerText = '0';
 
     const updateCounter = () => {
-      // Get count target
       const target = +counter.getAttribute('data-target');
-      // Get current counter value
       const c = +counter.innerText;
-
-      // Create an increment
       const increment = target / 100;
 
-      // If counter is less than target, add increment
       if (c < target) {
-        // Round up and set counter value
         counter.innerText = `${Math.ceil(c + increment)}`;
-
         setTimeout(updateCounter, 75);
       } else {
         counter.innerText = target;

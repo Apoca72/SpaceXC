@@ -491,4 +491,30 @@ footer ul li a:hover {
   .stats div {
     margin-bottom: 20px;
   }
+
+  @media (max-width: 768px) {
+    .section-inner {
+      left: 20px;
+      max-width: 80%;
+    }
+    .desktop-main-menu {
+      display: none;
+    }
+    .mobile-main-menu {
+      display: block;
+    }
+  }
+  
+  /* For screens smaller than 480px */
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 30px;
+    }
+    .section-inner h4 {
+      font-size: 18px;
+    }
+    .section-inner-center h3 {
+      font-size: 30px;
+    }
+  }
 }

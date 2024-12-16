@@ -11,70 +11,77 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header>
+    <header class="main-header">
       <div class="logo">
         <a href="index.html"><img src="logo.png" alt="SpaceX Logo" /></a>
       </div>
-      <nav aria-label="Main Navigation">
+      <nav aria-label="Main Navigation" class="desktop-main-menu">
         <ul>
           <li><a href="falcon9.html">Falcon 9</a></li>
           <li><a href="falcon-heavy.html">Falcon Heavy</a></li>
           <li><a href="dragon.html">Dragon</a></li>
         </ul>
       </nav>
+      <button class="hamburger mobile-only" aria-label="Open Menu">
+        <div class="hamburger-top"></div>
+        <div class="hamburger-middle"></div>
+        <div class="hamburger-bottom"></div>
+      </button>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <h1>Welcome to SpaceX</h1>
-      <p>
-        Welcome to SpaceX, where innovation meets the stars. Our mission is to revolutionize space travel and make life multi-planetary. 
-        With groundbreaking spacecraft like Falcon Heavy and Dragon, we’re paving the way for a future where space exploration becomes a reality for all.
-      </p>
-    </section>
+    <!-- Main Content -->
+    <main>
+      <!-- Welcome Section -->
+      <section class="section-a">
+        <video autoplay muted loop>
+          <source src="section-a.webm" type="video/webm">
+          Your browser does not support the video tag.
+        </video>
+        <div class="section-inner-center">
+          <h3>Welcome to SpaceX</h3>
+          <p>Revolutionizing space travel through advanced technologies like Falcon Heavy and Dragon spacecraft.</p>
+          <a href="#about" class="btn"><span>Learn More</span><div class="hover"></div></a>
+        </div>
+      </section>
 
-    <!-- About Section -->
-    <section class="about">
-      <h2>About SpaceX</h2>
-      <p>
-        SpaceX was founded with the goal of reducing the cost of space travel while advancing technology to explore new frontiers. 
-        From launching reusable rockets to developing Mars-bound missions, we are at the forefront of a space revolution.
-      </p>
-    </section>
+      <!-- About Section -->
+      <section class="section-b" id="about">
+        <div class="section-inner">
+          <h2>About SpaceX</h2>
+          <p>Founded with the vision of reducing the cost of space travel and enabling interplanetary exploration, SpaceX leads a space revolution through innovation, reusable rockets, and Mars-bound missions.</p>
+        </div>
+      </section>
 
-    <!-- Innovations Section -->
-    <section class="innovations">
-      <h2>Our Innovations</h2>
-      <p>Explore our cutting-edge spacecraft:</p>
-      <ul>
-        <li><strong>Falcon 9:</strong> A reusable rocket designed for safe and cost-effective launches.</li>
-        <li><strong>Falcon Heavy:</strong> The most powerful operational rocket in the world.</li>
-        <li><strong>Dragon:</strong> A spacecraft designed to transport both crew and cargo safely.</li>
-      </ul>
-    </section>
+      <!-- Explore Missions Section -->
+      <section class="section-c">
+        <div class="section-inner">
+          <h2>Explore Our Missions</h2>
+          <ul>
+            <li><a href="falcon9.html">Falcon 9 Missions</a></li>
+            <li><a href="falcon-heavy.html">Falcon Heavy Power</a></li>
+            <li><a href="dragon.html">Dragon's Crew Missions</a></li>
+          </ul>
+        </div>
+      </section>
 
-    <!-- Missions Section -->
-    <section class="missions">
-      <h2>Explore Our Missions</h2>
-      <p>
-        At SpaceX, every mission takes us closer to a future where space travel is as common as air travel. 
-        Learn about our recent achievements and upcoming launches:
-      </p>
-      <ul>
-        <li><a href="falcon9.html">Falcon 9 Missions</a></li>
-        <li><a href="falcon-heavy.html">Falcon Heavy Power</a></li>
-        <li><a href="dragon.html">Dragon's Crew Missions</a></li>
-      </ul>
-    </section>
-
-    <!-- Call-to-Action Section -->
-    <section class="cta">
-      <h2>Join the Journey</h2>
-      <p>
-        We invite you to learn more about our missions, explore our achievements, and become part of the journey to the stars. 
-        Together, we can reach new heights and push the boundaries of what’s possible.
-      </p>
-    </section>
+      <!-- Highlights Section -->
+      <section class="section-d">
+        <div class="stats">
+          <div>
+            <span>200+</span>
+            <h4>Successful Launches</h4>
+          </div>
+          <div>
+            <span>50+</span>
+            <h4>Reused Rockets</h4>
+          </div>
+          <div>
+            <span>3</span>
+            <h4>Spacecraft Models</h4>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer Section -->
     <footer>
